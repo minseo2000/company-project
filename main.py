@@ -25,6 +25,7 @@ frame = Frame(root)
 frame.configure(background='white')
 frame.pack()
 
+
 label_title = Label(frame, text="title")
 label_title.pack(side = LEFT)
 label_price = Label(frame, text="price")
