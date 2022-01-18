@@ -1,6 +1,7 @@
 import pyupbit
 from tkinter import *
 from tkinter import messagebox
+import myframe as min
 #get category of coin
 
 tickers = pyupbit.get_tickers(fiat = "KRW")
@@ -38,4 +39,4 @@ rightbutton = Button(frame, text = "sell")
 rightbutton.pack(side = RIGHT)
 
 
-root.mainloop()
+min.main()
